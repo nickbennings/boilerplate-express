@@ -4,6 +4,7 @@ const path = require('path');
 
 // Serve static assets from the /public directory
 app.use(express.static(path.join(__dirname, 'public')));
+console.log("Hello World");
 
 // Set up a route to serve the index.html file
 app.get('/', function(req, res) {
@@ -13,37 +14,3 @@ app.get('/', function(req, res) {
 
 // Do not edit below this line
 module.exports = app;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- module.exports = app;
